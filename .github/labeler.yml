@@ -1,0 +1,27 @@
+catalog:
+  - plugins/catalog/**/*
+  - plugins/catalog-*/**/*
+  - packages/catalog-*/**/*
+scaffolder:
+  - plugins/scaffolder/**/*
+  - plugins/scaffolder-*/**/*
+search:
+  - plugins/search/**/*
+  - plugins/search-*/**/*
+  - packages/search-*/**/*
+techdocs:
+  - plugins/techdocs/**/*
+  - plugins/techdocs-*/**/*
+  - packages/techdocs-*/**/*
+homepage:
+  - plugins/home/**/*
+documentation:
+  - docs/**/*
+microsite:
+  - microsite/**/*
+auth:
+  - plugins/auth-backend/**/*
+  - plugins/permission-*/**/*
+  - packages/core-app-api/src/apis/implementations/auth/**/*
+  - packages/core-app-api/src/lib/Auth*/**/*
+  - packages/core-plugin-api/src/apis/definitions/auth.ts
